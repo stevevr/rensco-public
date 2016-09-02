@@ -7742,6 +7742,16 @@ h6.media-heading {
   .owl-controls .owl-page span {
     background: #000000;
   }
+  .slider-revolution-5-container { height: 600px!important; }
+  .tp-fullwidth-forcer { height: 600px!important; }
+}
+@media (max-width: 480px) {
+  .slider-revolution-5-container { height: 400px!important; }
+  .tp-fullwidth-forcer { height: 400px!important; }
+  .slider-revolution-5-container .large_white { font-size: 22px!important; line-height: 22px!important; }
+  .slider-revolution-5-container .medium_white { font-size: 12px!important; line-height: 20px!important; }
+  .slider-revolution-5-container .ui-icon { width:200px!important; height:auto!important; margin-top:10px!important; }
+
 }
 /* 10 Full Page
 ----------------------------------------------------------------------------- */
