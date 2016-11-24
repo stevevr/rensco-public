@@ -713,7 +713,7 @@ tbody {
 /*Backgrounds
 ---------------------------------- */
 .background-img-1 {
-  background: url("../images/background-img-1.jpg") 50% 0px no-repeat;
+  background: url("../img/background-img-1.png") 50% 0px no-repeat;
 }
 .background-img-2 {
   background: url("../images/background-img-2.jpg") 50% 0px no-repeat;
@@ -5201,7 +5201,7 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
 /* Medium devices (tablets landscape to portrait) */
 @media (min-width: 768px) and (max-width: 991px) {
   .header:not(.full-width) .main-navigation .navbar-nav {
-    float: left !important;
+    float: left;
   }
   body:not(.fixed-header-on) .header:not(.dark) .navbar-default .navbar-nav > li > a {
     border-top: 1px solid transparent;
@@ -7784,3 +7784,21 @@ h6.media-heading {
   color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+/* Extra Styles */
+
+.img-100{
+  width: 100%;
+}
+
+.logo{
+  width: 140px;
+}
+
+@media (min-width: 769px) {
+  .navbar-nav{
+    float: right !important;
+  }
+}
+
