@@ -7750,7 +7750,7 @@ h6.media-heading {
   .tp-fullwidth-forcer { height: 400px!important; }
   .slider-revolution-5-container .large_white { font-size: 22px!important; line-height: 22px!important; }
   .slider-revolution-5-container .medium_white { font-size: 12px!important; line-height: 20px!important; }
-  .slider-revolution-5-container .ui-icon { width:200px!important; height:auto!important; margin-top:10px!important; }
+  /*.slider-revolution-5-container .ui-icon { width:200px!important; height:auto!important; margin-top:10px!important; }*/
 
 }
 /* 10 Full Page
@@ -7796,9 +7796,81 @@ h6.media-heading {
   width: 140px;
 }
 
+.ui-icon-react {
+  width:100px;
+}
+
+.ui-apple-icon {
+  font-size:80px;
+  margin-right:15px;
+}
+
+.ui-android-icon {
+  font-size:80px;
+  color:#A4C639;
+  margin-right:15px;
+}
+
+.ui-windows-icon {
+  font-size:80px;
+  color:#04aef4;
+}
+
 @media (min-width: 769px) {
   .navbar-nav{
     float: right !important;
+  }
+}
+
+@media (max-width:480px) {
+  .ui-react-slide-1 img {
+    width: 50px!important;
+    height: auto!important;
+  }
+  .ui-meteor-logo img {
+    width: 100px!important;
+    height: auto!important;
+  }
+  .ui-apple-icon {
+    font-size:40px;
+    margin-right:15px;
+  }
+  .ui-android-icon {
+    font-size:40px;
+    color:#A4C639;
+    margin-right:15px;
+  }
+  .ui-windows-icon {
+    font-size:40px;
+    color:#04aef4;
+  }
+  .tp-logo-image img {
+    width: 100px!important;
+    height: auto!important;
+  }
+}
+
+@media (min-width:481px) {
+  .ui-react-slide-1 img {
+    width: 100px!important;
+    height: auto!important;
+  }
+  .ui-apple-icon {
+    font-size:40px;
+    margin-right:15px;
+  }
+  .ui-android-icon {
+    font-size:40px;
+    color:#A4C639;
+    margin-right:15px;
+  }
+  .ui-windows-icon {
+    font-size:40px;
+    color:#04aef4;
+  }
+  .tp-logo-image img {
+    width: 200px!important;
+    height: auto!important;
   }
 }
 
