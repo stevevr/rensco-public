@@ -7874,3 +7874,7 @@ h6.media-heading {
   }
 }
 
+.logo { width: 100px; }
+
+.tech-logo img { padding-top:10px; height:100px; padding-bottom:10px;}
+
