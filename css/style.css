@@ -4127,9 +4127,12 @@ fieldset[disabled] .form-control {
   -o-transition: all ease-in-out 0.25s;
   transition: all ease-in-out 0.25s;
   height: 0;
-  color: #ffffff;
+  color: #111;
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1, 1);
+}
+#services .overlay-bottom {
+  background-color: transparent;
 }
 .overlay-bottom.links,
 .overlay-to-top.links {
